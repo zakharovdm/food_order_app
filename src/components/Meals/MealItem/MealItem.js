@@ -1,3 +1,5 @@
+import MealItemForm from "./MealItemForm";
+
 import classes from "./MealItem.module.css";
 
 const MealItem = (props) => {
@@ -10,9 +12,7 @@ const MealItem = (props) => {
         <div className={classes.price}>{price}</div>
       </div>
       <div>
-        <label id="amount">Amount</label>
-        <input name="amount" type="number" value="1"/>
-        <button type="button">+ Add</button>
+        <MealItemForm />
       </div>
   </li>
 };
