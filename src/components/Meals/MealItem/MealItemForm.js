@@ -12,10 +12,10 @@ const MealItemForm = (props) => {
           min: "1",
           max: "5",
           step: "1",
-          defaultValue: "1",
+          defaultValue: "1", 
         }}
       />
-      <button type="button">+ Add</button>
+      <button type="submit">+ Add</button>
     </form>
   );
 };
