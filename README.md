@@ -9,7 +9,7 @@ Dummy app for food order.
 
 ### Stack:
 
-* React
+- React
 
 ### Application functionality.
 
