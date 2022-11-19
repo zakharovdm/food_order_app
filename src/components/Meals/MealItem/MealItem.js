@@ -6,18 +6,19 @@ import classes from "./MealItem.module.css";
 const MealItem = (props) => {
   const ctx = useContext(CartContext);
 
-  const price = `$${props.price.toFixed(2)}`
+  const price = `$${props.price.toFixed(2)}`;
 
   const addToCartHandler = (amount) => {
     ctx.addItem({
       id: props.id,
       name: props.name,
       amount: amount,
-      price: props.price, 
-    })
+      price: props.price,
+    });
   };
 
-  return <li className={classes.meal}>
+  return (
+    <li className={classes.meal}>
       <div>
         <h3>{props.name}</h3>
         <div className={classes.description}>{props.description}</div>
@@ -26,7 +27,8 @@ const MealItem = (props) => {
       <div>
         <MealItemForm id={props.id} onAddToCart={addToCartHandler} />
       </div>
-  </li>
+    </li>
+  );
 };
 
 export default MealItem;
