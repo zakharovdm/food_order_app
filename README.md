@@ -5,7 +5,7 @@
 
 Dummy app for food order.
 
-[Food order app]()
+[Food order app](https://food-order-app-alpha.vercel.app/)
 
 ### Stack:
 
@@ -13,7 +13,7 @@ Dummy app for food order.
 
 ### Application functionality.
 
-![functionality]()
+![functionality](./public/Food_order_app.gif)
 
 ### Get started.
 
